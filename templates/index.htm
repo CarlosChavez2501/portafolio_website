@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carlos Chávez | Ingeniero</title>
+  <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+  <p><img src="/static/images/yo.jpg" alt="profile.jpg" style="float:left; width:10%; height: 10%; border:5px"></p>
+  <h1>Carlos Chávez</h1>
+
+  <h2>PORTFOLIO</h2>
+
+  <!-- Botones de filtro -->
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Todo </button>
+    <button class="btn" onclick="filterSelection('perfil')"> Perfil </button>
+    <button class="btn" onclick="filterSelection('Educacion')"> Educacion </button>
+    <button class="btn" onclick="filterSelection('trabajo')"> Experiencia laboral </button>
+    <button class="btn" onclick="filterSelection('contactos')"> Contactos</button>
+  </div>
+
+  <!-- Contenido Portfolio -->
+  <div class="row">
+
+    <!-- Sección de perfil -->
+    <div class="column perfil">
+      <div class="content">
+        <h4>Perfil</h4>
+      </div>
+    </div>
+    <div class="column perfil">
+      <div class="content">
+        <h4>IDIOMAS</h4>
+        <p>Inglés intermedio; certificación <br>
+          TOEIC L&R
+        </p>
+      </div>
+    </div>
+    <div class="column perfil">
+      <div class="content">
+        <h4>RECONOCIMIENTOS</h4>
+        <p>Beca Fundación Frech 2018 <br>
+          Beca Fantel, 2018<br>
+          Beca “Oportunidades para<br>
+          todos” ESEN 2019 <br>
+        </p>
+      </div>
+    </div>
+    <div class="column perfil">
+      <div class="content">
+        <h4>Sobre mi...</h4>
+        <p>Responsable y optimista, siempre busco la manera de cumplir todas las tareas que se
+          me asignan, sin importar lo difícil que parezcan. Además, extremadamente
+          persistente y objetivo al momento de trabajar.
+        </p>
+      </div>
+    </div>
+
+    <!-- Sección de Educacion -->
+    <div class="column Educacion">
+      <div class="content">
+        <h4>Educación</h4>
+      </div>
+    </div>
+    <div class="column Educacion">
+      <div class="content">
+        <img src="/static/images/ESEN.png" alt="ESEN" style="width:100%">
+        <h4>Escuela Superior de Economía y Negocios, La Libertad - El Salvador</h4>
+        <p>2019 - Actualidad</p>
+      </div>
+    </div>
+    <div class="column Educacion">
+      <div class="content">
+        <img src="/static/images/fray.jpg" alt="Fray" style="width:100%">
+        <h4>Complejo Educativo Católico “Fray Martín De Porres”</h4>
+        <p>2006 - 2017</p>
+      </div>
+    </div>
+    <div class="column Educacion">
+      <div class="content">
+        <img src="/static/images/superate.png" alt="Superate" style="width:100%">
+        <h4>Centro ¡Supérate! Merlet, La libertad, El Salvador</h4>
+        <p>2016 - 2018</p>
+      </div>
+    </div>
+
+    <!-- Sección de Experiencia Laboral -->
+    <div class="column trabajo">
+      <div class="content">
+        <h4>Experiencia Laboral</h4>
+      </div>
+    </div>
+    <div class="column trabajo">
+      <div class="content">
+        <img src="/static/images/FDS.jpg" alt="FDS" style="width:100%">
+        <h4>Fábrica de Sonrisas El Salvador</h4>
+        <p>2018 - Actualidad</p>
+      </div>
+    </div>
+    <div class="column trabajo">
+      <div class="content">
+        <img src="/static/images/marsuennos.jpg" alt="Mar de sueños" style="width:100%">
+        <h4>Mar de sueños</h4>
+        <p>March 2019 - Ene 2020</p>
+      </div>
+    </div>
+    <div class="column trabajo">
+      <div class="content">
+        <img src="/static/images/sae.png" alt="SAE" style="width:100%">
+        <h4>SAE-ESEN</h4>
+        <p>March 2019 - Ene 2020</p>
+      </div>
+    </div>
+
+    <!-- Sección de Contactos -->
+    <div class="column contactos">
+      <div class="content">
+        <h4>Contactos</h4>
+      </div>
+    </div>
+    <div class="column contactos">
+      <div class="content">
+        <img src="/static/images/vicent-palasi.jpg" alt="Palasi" style="width:100%">
+        <h4>Vincent Palasí </h4>
+        <p>VPALASI@ESEN.EDU.SV</p>
+      </div>
+    </div>
+    <div class="column contactos">
+      <div class="content">
+        <img src="/static/images/jimena.jpg" alt="Jimena" style="width:100%">
+        <h4>Jimena Alcaine</h4>
+        <p>jimenalcaine.superate@imerlet.com</p>
+      </div>
+    </div>
+    <div class="column contactos">
+      <div class="content">
+        <img src="/static/images/Balbino.jfif" alt="Balbino" style="width:100%">
+        <h4>Balbino</h4>
+        <p>baylagas@esen.edusv</p>
+      </div>
+    </div>
+    <!-- END GRID -->
+  </div>
+
+  <!-- Javascript -->
+  <script src="/static/script.js"></script>
+
+</html>
