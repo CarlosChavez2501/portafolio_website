@@ -9,9 +9,9 @@ def home():
 
 
 @app.route("/contact")
-def about():
+def contact():
     return render_template("contact.htm")
 
 
-if __name__ == "__main__":
+if __name__ == "_main_":
     app.run(debug=True)
