@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  background-color: crimson;
 }
 
 body {
@@ -75,13 +76,13 @@ h1 {
 }
 
 img {
-  height: 400px;
+  height: 200px;
 }
 
 .perfil {
   float: left;
   width: 100%;
   display: none;
-  height: 400px; 
+  height: 100px; 
 }
 
